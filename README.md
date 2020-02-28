@@ -17,3 +17,16 @@ RESULT // escapeされない
 <pre id="title-1" class="hide">タブ名1</pre>
 <pre id="title-2" class="hide">タブ名2</pre>
 ```
+## 構造
+```
+$ hexo-project(main directory)
+├─ scripts/
+│ └─pre.js # here
+└─ themes/
+　 └─<theme-name>/
+　　 └─source/
+    　　 ├─css/
+    　　 │ └─style.css # here
+    　　 └─js/
+    　　　 └─script.js # here
+```

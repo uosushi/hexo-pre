@@ -1,4 +1,4 @@
-// /scripts/pre.js
+// scripts/pre.js
 function escapeHTML(str) {
     if (!str) return;
     return str.replace(/[<>&"'`]/g, function(match) {
